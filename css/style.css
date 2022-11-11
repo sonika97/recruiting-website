@@ -1118,6 +1118,70 @@ padding-left: 10px;
   background: #1e92bb;
 }
 
+
+/*------jd-----*/
+
+.Job-D
+{
+  padding: 100px 0 30px 0;
+  margin-top: 30px;
+}
+.jd-headline
+{
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  position: relative;
+
+ 
+}
+.jd-headline ul
+{
+   margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  list-style: none;
+  align-items: center;
+}
+.panel {
+      
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    
+  padding: 10px 10px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top:5%;
+  transition: all 0.2s ease-in-out;
+  
+}
+.panel:first-child 
+{
+  display: block;
+}
+.panel i 
+{
+  padding: 5px;
+}
+.panel .sec-1
+{
+  float: left;
+  padding-top: 10px;
+ overflow: hidden;
+}
+.panel span
+{
+   padding-left: 5px;
+
+}
+.panel .roles
+{
+  margin: 1%;
+}
+
+/*-----/.jd----*/
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
