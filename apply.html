@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Apply-form</title>
+	<link  href="css/bootstrap.min.css"  rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+   <link href="css/style.css"  rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  
+     <!--aos library-->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+ <!-- ======= Contact Us Section ======= -->
+    <section id="employer-form" class="employer-form">
+      <div class="container"  text-align="center">
+
+        <div class="section-title justify-content text-center p-4 "data-aos="fade-right">
+          <h2 style="color:#43c0ec;">APPLY FOR THIS POSITION</h2>
+          <p>Contact us the get started</p>
+        </div>
+        <div class="application justify-content align-items-stretch">
+        <div class="row ">
+
+       
+
+          <div class="col-md-8  offset-md-2 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-up">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group col-md-6 mt-3 mt-md-0">
+                  <label for="name">Phone number</label>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder=" Your Number" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                
+                <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group mt-3">
+                <label for="name">Cover letter</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="form-group mt-3">
+              <label for="name">Upload CV/Resume</label>
+              <div class="Choose-file ml-0">
+              	<label class="block">
+                 <span class="sr-only">Choose file</span>
+             <input type="file" class="block w-full text-sm text-slate-500
+                file:mr-4 file:py-2 file:px-4
+                  file:rounded-full file:border-0
+                 file:text-sm file:font-semibold
+                file:bg-violet-50 file:text-violet-700
+               hover:file:bg-violet-100 "/><br>
+               <span>Allowed type(s): .pdf, .doc, .docx</span>
+    </label>
+              </div>
+</div>
+              <div class="text-center"><button type="submit">Submit</button></div>
+            </form>
+          </div>
+
+        </div>
+        </div>
+      </div>
+    </section><!-- End Contact Us Section -->
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/jquery.slim.min.js"><\/script>')</script>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js.map"></script>
+       <!--aos library-->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script type="text/javascript">
+    AOS.init();
+</script>
+</body>
+</html>

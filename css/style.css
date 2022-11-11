@@ -509,6 +509,7 @@ text-align: center;
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
+
   background: #fff;
   box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.12);
   transition: all 0.3s ease-in-out;
@@ -1042,7 +1043,7 @@ padding-left: 10px;
 }
 
 /*------------employer-form------*/
-.employer-form  .php-email-form {
+.employer-form,  .php-email-form {
   width: 100%;
   border-top: 3px solid #29aae1;
   border-bottom: 3px solid #29aae1;
@@ -1111,7 +1112,9 @@ padding-left: 10px;
 }
 .applybtn
 {
-  float: right;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
  margin-top: 5%;
 }
 .employer-form .php-email-form button[type=submit]:hover .applybtn:hover{
@@ -1153,7 +1156,7 @@ padding-left: 10px;
   background-color: white;
   overflow: hidden;
   border-radius: 5px;
-  margin-top:5%;
+  margin-top:1%;
   transition: all 0.2s ease-in-out;
   
 }
@@ -1176,11 +1179,30 @@ padding-left: 10px;
    padding-left: 5px;
 
 }
-.panel .roles
-{
-  margin: 1%;
-}
 
+
+hr .grey 
+{
+  border-top: 1px dotted red;
+  }
+
+/*.jd-rightt:hover;
+{
+ color: pink;
+ cursor: pointer;
+}*/
+.jd-rightt:last child
+{
+  padding-bottom: 30px;
+}
+.com-logo
+{
+  display: inline-block;
+    vertical-align: top;
+   /* border: 1px solid #eee;*/
+    width: 50px;
+    height: 50px;
+}
 /*-----/.jd----*/
 @-webkit-keyframes animate-loading {
   0% {
